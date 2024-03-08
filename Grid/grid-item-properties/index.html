@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>penerapan full latihan 1-7</title>
+
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: lightblue;
+        }
+
+        .container {
+        width: 80%;
+        margin: 50px auto;
+        display: grid;
+        /* grid-template-columns: minmax(200px, 300px) 1fr 1fr;
+        grid-template-rows: repeat(3, 100px); */
+
+        grid-template-columns: [satu] minmax(200px, 300px) [dua] 1fr [tiga] 1fr [empat];
+        grid-template-rows: [baris1] 100px [baris2] 100px [b-3] 100px [b4];
+      }
+
+      .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .myitem{
+
+        /* grid-column and grid-row */
+        text-align: center;
+        /* grid-column:4 / 1;
+        grid-row: 2 / 3; */
+
+        /* grid-areas */
+
+        /* grid-area: 2 / 2 / 3 / 4; */
+
+
+        /* justify-self */
+
+        /* justify-self: start ; */
+
+
+        /* align - self */
+
+        /* align-self: end; */
+
+
+        /* place - self */
+
+        place-self: start end;
+
+
+        background-color: red;
+      }
+
+
+    </style>
+
+
+
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="myitem">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div>
+</body>
+</html>

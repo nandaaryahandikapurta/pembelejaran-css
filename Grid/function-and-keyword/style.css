@@ -1,0 +1,80 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color:  #ac7c58;
+}
+
+/* column and row */
+
+/*  
+.container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 100px;
+} */
+
+
+
+/* explisit dan  implisit */
+/* 
+.container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 100px 50px;
+    grid-template-rows: 50px 20px;
+    grid-auto-flow: column;
+} */
+
+
+
+/* fr (fraction) */
+
+/* .container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr) repeat(6, 3fr);
+
+} */
+
+
+/* min-content & max-content */
+/* .container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: min-content 2fr 1fr;
+} */
+
+
+/* Auto-fill & Auto -fit */
+/* .container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    border: 5px solid orange;
+    grid-template-columns: repeat(Auto-fill, 100px);
+} */
+
+/* min-max */
+.container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: max-content minmax(200px, 300px) max-content;
+}
+
+.item {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(even){
+    background-color: red;
+}

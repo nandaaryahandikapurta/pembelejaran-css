@@ -1,0 +1,29 @@
+.container {
+    width: 600px;
+    border: 2px solid #333;
+    margin: 30px auto;
+    padding: 30px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: baseline;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 2px;
+}
+
+.satu {
+    order: 4;
+}
+.dua {
+    order: 1;
+}
+.tiga {
+    order: 2;
+}
+.Empat {
+    order: 3;
+}

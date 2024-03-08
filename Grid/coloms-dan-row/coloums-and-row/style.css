@@ -1,0 +1,54 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #776187;
+}
+
+/* column and row */
+
+/*  
+.container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 100px;
+} */
+
+
+
+/* explisit dan  implisit */
+/* 
+.container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 100px 50px;
+    grid-template-rows: 50px 20px;
+    grid-auto-flow: column;
+} */
+
+
+
+/* fr (fraction) */
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 100px 50px;
+    grid-template-rows: 50px 20px;
+
+}
+
+
+.item {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(even){
+    background-color: red;
+}

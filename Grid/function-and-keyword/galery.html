@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeery</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            background-color: #5E7E60;
+            text-align: center;
+        }
+
+        img{
+            width: 100%;
+            display: block;
+        }
+
+        .gallery {
+            width: 80%;
+            margin: 50px auto;
+            list-style: none;
+            display: grid;
+            border: 10px solid orange;
+            border-radius: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Gallery</h2>
+    <ul class="gallery">
+        <li><img src="ful/arya1.jpg" alt=""></li>
+        <li><img src="ful/arya2.jpg" alt=""></li>
+        <li><img src="ful/arya3.jpg" alt=""></li>
+        <li><img src="ful/arya2.jpg" alt=""></li>
+        <li><img src="ful/arya3.jpg" alt=""></li>
+        <li><img src="ful/arya1.jpg" alt=""></li>
+        <li><img src="ful/arya3.jpg" alt=""></li>
+        <li><img src="ful/arya1.jpg" alt=""></li>
+        <li><img src="ful/arya2.jpg" alt=""></li>
+        <li><img src="ful/arya1.jpg" alt=""></li>
+    </ul>    
+</body>
+</html>

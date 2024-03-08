@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    font: arial, sans-serif;
+    min-height: 100vh;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color:#333;
+
+}
+
+.container {
+    font-size: calc(6vw + 1.5rem);
+    max-width: 800px;
+    width: calc(100vw - 4m);
+    margin: 0 auto;
+}
+
+h1 {
+
+    text-align: center;
+    color: white;
+}
+
+img {
+    display: blok;
+    max-width: 100%;
+}
